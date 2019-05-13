@@ -93,6 +93,7 @@
                 android:textSize="20sp" />
 
             <EditText
+                android:id="@+id/nama_lengkap"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/bg_input_edit"
@@ -122,6 +123,7 @@
                 android:textSize="20sp" />
 
             <EditText
+                android:id="@+id/bio"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/bg_input_edit"
