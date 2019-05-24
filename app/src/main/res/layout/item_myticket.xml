@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/item_my_ticket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/ic_ticket_buy"/>
+
+        <LinearLayout
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/xnama_wisata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/mregular"
+                android:textSize="16sp"
+                android:textColor="@color/blackPrimary"
+                tools:text="Menara Pisa"/>
+
+            <TextView
+                android:id="@+id/xlokasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pisa City, Italy"
+                android:fontFamily="@font/mregular"
+                android:textColor="@color/greyPrimary"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="70dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/xjumlah_tiket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="2 ticket"
+                android:textSize="16sp"
+                android:fontFamily="@font/mlight"
+                android:textColor="@color/bluePrimary"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

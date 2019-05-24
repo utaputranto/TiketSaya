@@ -90,25 +90,27 @@
                 android:src="@drawable/ic_ticket_buy"/>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/nama_wisata"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="4dp"
                     android:fontFamily="@font/mregular"
                     android:textSize="16sp"
                     android:textColor="@color/blackPrimary"
-                    android:text="Menara Pisa"/>
+                    tools:text="Menara Pisa"/>
 
                 <TextView
+                    android:id="@+id/lokasi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pisa City, Italy"
+                    tools:text="Pisa City, Italy"
                     android:fontFamily="@font/mregular"
                     android:textColor="@color/greyPrimary"
                     android:textSize="14sp" />
@@ -116,7 +118,6 @@
 
             <LinearLayout
                 android:layout_marginTop="13dp"
-                android:layout_marginLeft="65dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
@@ -131,12 +132,12 @@
                     android:id="@+id/textJumlahTicket"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0"
-                    android:fontFamily="@font/mregular"
-                    android:textColor="@color/blackPrimary"
-                    android:textSize="18sp"
                     android:layout_marginLeft="12dp"
-                    android:layout_marginRight="12dp"/>
+                    android:layout_marginRight="12dp"
+                    android:fontFamily="@font/mregular"
+                    android:text="0"
+                    android:textColor="@color/blackPrimary"
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/btn_plus"
@@ -148,12 +149,12 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/short_tos_ticket"
+            android:id="@+id/ketentuan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/mlight"
             android:lineSpacingExtra="8dp"
-            android:text="Anak yang berumur lebih dari 3 tahun wajib membeli tiket untuk masuk kedalam landmark"
+            tools:text="Anak yang berumur lebih dari 3 tahun wajib membeli tiket untuk masuk kedalam landmark"
             android:textColor="@color/greyPrimary"
             android:textSize="18sp" />
 
@@ -203,7 +204,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/mlight"
-                android:text="$117 "
+                android:text="$0"
                 android:textColor="@color/bluePrimary"
                 android:textSize="16sp" />
 
@@ -236,7 +237,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/mregular"
-                android:text="$0 "
+                tools:text="$0 "
                 android:textColor="@color/GreenPrimary"
                 android:textSize="28sp" />
 

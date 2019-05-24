@@ -8,11 +8,10 @@
     tools:context=".TicketDetailAct">
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/header_ticket_detail"
         android:layout_width="match_parent"
         android:layout_height="210dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/bgheader_pisa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -27,13 +26,13 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:fontFamily="@font/mregular"
-        android:text="Menara Pisa"
+        tools:text="Menara Pisa"
         android:textColor="#FFF"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView6" />
+        app:layout_constraintTop_toTopOf="@+id/header_ticket_detail" />
 
     <TextView
         android:id="@+id/location_ticket"
@@ -46,7 +45,7 @@
         android:layout_marginRight="8dp"
         android:fontFamily="@font/mlight"
         android:lineSpacingExtra="9dp"
-        android:text="Pisa, Italy"
+        tools:text="Pisa, Italy"
         android:textAlignment="center"
         android:textColor="#FFF"
         android:textSize="24sp"
@@ -119,7 +118,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/mregular"
-                    android:text="4 photos spot"
+                    tools:text="4 photos spot"
                     android:textColor="@color/blackPrimary"
                     android:textSize="16sp" />
 
@@ -161,7 +160,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/mregular"
-                    android:text="WiFi Available"
+                    tools:text="WiFi Available"
                     android:textColor="@color/blackPrimary"
                     android:textSize="16sp" />
 
@@ -201,7 +200,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/mregular"
-                    android:text="13 Festivals"
+                    tools:text="13 Festivals"
                     android:textColor="@color/blackPrimary"
                     android:textSize="16sp" />
 

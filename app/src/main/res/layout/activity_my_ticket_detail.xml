@@ -72,39 +72,25 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/xnama_wisata"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="4dp"
                     android:fontFamily="@font/mregular"
-                    android:text="Menara Pisa"
+                    tools:text="Menara Pisa"
                     android:textColor="@color/blackPrimary"
                     android:textSize="16sp" />
 
                 <TextView
+                    android:id="@+id/xlokasi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/mregular"
-                    android:text="Pisa City, Italy"
+                    tools:text="Pisa City, Italy"
                     android:textColor="@color/greyPrimary"
                     android:textSize="14sp" />
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="70dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/mlight"
-                    android:text="2 ticket"
-                    android:textColor="@color/bluePrimary"
-                    android:textSize="16sp" />
-
-            </LinearLayout>
 
         </LinearLayout>
 
@@ -131,10 +117,11 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/xdate_wisata"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/mlight"
-                android:text="January 22, 2018"
+                tools:text="January 22, 2018"
                 android:textColor="@color/greyPrimary"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -154,10 +141,11 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/xtime_wisata"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/mlight"
-                android:text="10AM to 12PM"
+                tools:text="10AM to 12PM"
                 android:textColor="@color/greyPrimary"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -177,10 +165,11 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/xketentuan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/mlight"
-                android:text="Anak yang berumur lebih dari 3 tahun wajib membeli tiket untuk masuk kedalam landmark"
+                tools:text="Anak yang berumur lebih dari 3 tahun wajib membeli tiket untuk masuk kedalam landmark"
                 android:textColor="@color/greyPrimary"
                 android:textSize="16sp" />
         </LinearLayout>
